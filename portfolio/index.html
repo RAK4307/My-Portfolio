@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- ===== FAVICON ===== -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+        <title>My Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====--> 
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Rayapudi Anil Kumar</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Hi,<br>
+                        I'am <span class="home__title-color">Anil</span>
+                    </h1>
+                    <h2 class="home__headline">
+                        <span id="typewriter"></span>
+                    </h2>
+                </div>
+
+                <div class="home__button-group">
+                  <a href="assets/resume.pdf" class="home__button" target="_blank">Resume</a>
+                  <a href="#contact" class="home__button">Let's Connect</a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="./assets/img/Untitled design.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="./assets/img/about.jpg" alt="">
+                    </div>
+                    <div class="about">
+                        <!-- <h2 class="about__subtitle">I'm <span class="home__title-color">Anil</span></h2> -->
+                        <p class="about__text">
+                            I'm <span class="home__title-color"><strong>Anil Kumar Rayapudi</strong></span>, a final-year B.Tech Computer Science student specializing in <strong>Artificial Intelligence and Machine Learning</strong>. 
+                            Passionate about merging AI with real-world impact, I develop full-stack solutions enhanced by intelligent systems. My projects include <strong>SwiftFolio</strong> 
+                            (a dynamic portfolio generator), an <strong>AI chatbot</strong>, a responsive <strong>Travel blog</strong>, and an <strong>image generation tool using ComfyUI</strong>. 
+                        </p>
+                        <p class="about__text">
+                            I'm also currently working on a deep learning-based <strong>brain tumor detection system</strong> (ongoing), aiming to improve accuracy in medical diagnostics. 
+                            Eager to contribute my skills in AI/ML, full-stack development, and problem-solving to innovative teams, 
+                            I'm actively seeking <strong>Software Engineer</strong> roles where I can learn, collaborate, and build meaningful solutions. Let's connect!
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <!-- Technical Languages: left skills, right image -->
+                <div class="skills__container bd-grid">
+                    <div>
+                        <h2 class="skills__subtitle">Technical Languages</h2>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="skills__icon-img">
+                                <span class="skills__name">PYTHON</span>
+                            </div>
+                            <div class="skills__bar skills__html"></div>
+                            <div><span class="skills__percentage">90%</span></div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="Python" class="skills__icon-img">
+                              
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html"></div>
+                            <div><span class="skills__percentage">85%</span></div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" class="skills__icon-img">
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css"></div>
+                            <div><span class="skills__percentage">78%</span></div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="skills__icon-img">
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js"></div>
+                            <div><span class="skills__percentage">70%</span></div>
+                        </div>
+                        
+                        
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL / MySQL" class="skills__icon-img">
+                                <span class="skills__name">SQL</span>
+                            </div>
+                            <div class="skills__bar skills__js"></div>
+                            <div><span class="skills__percentage">80%</span></div>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://cdn.pixabay.com/photo/2024/05/02/09/16/web-development-8734249_640.png" alt="" class="skills__img">
+                    </div>
+                </div>
+                <br>
+                <br>
+                <!-- Libraries & Frameworks: right skills, left image -->
+                <div class="skills__container bd-grid skills__container--reverse">
+                    <div>
+                        <img src="https://8allocate.com/wp-content/uploads/2024/01/The-Future-of-Software-Engineering_-Predictions-for-2024.jpg" alt="" class="skills__img">
+                    </div>
+                    <div>
+                        <h2 class="skills__subtitle">Libraries & Frameworks</h2>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React.js" class="skills__icon-img">
+                                <span class="skills__name">REACT JS</span>
+                            </div>
+                            <div class="skills__bar skills__html"></div>
+                            <div><span class="skills__percentage">75%</span></div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" class="skills__icon-img">
+                                <span class="skills__name">NODE JS</span>
+                            </div>
+                            <div class="skills__bar skills__css"></div>
+                            <div><span class="skills__percentage">70%</span></div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express.js" class="skills__icon-img">
+                                <span class="skills__name">EXPRESS JS</span>
+                            </div>
+                            <div class="skills__bar skills__js"></div>
+                            <div><span class="skills__percentage">65%</span></div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" class="skills__icon-img">
+                                <span class="skills__name">MONGODB</span>
+                            </div>
+                            <div class="skills__bar skills__js"></div>
+                            <div><span class="skills__percentage">80%</span></div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <!-- Tools & Technologies: left skills, right image -->
+                <div class="skills__container bd-grid">
+                    <div>
+                        <h2 class="skills__subtitle">TOOLS & TECHNOLOGIES</h2>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="skills__icon-img">
+                                <span class="skills__name">GIT / GITHUB</span>
+                            </div>
+                            <div class="skills__bar skills__html"></div>
+                            <div><span class="skills__percentage">80%</span></div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" class="skills__icon-img">
+                                <span class="skills__name">VS CODE</span>
+                            </div>
+                            <div class="skills__bar skills__css"></div>
+                            <div><span class="skills__percentage">85%</span></div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg" alt="Netlify" class="skills__icon-img">
+                                <span class="skills__name">NETLIFY</span>
+                            </div>
+                            <div class="skills__bar skills__js"></div>
+                            <div><span class="skills__percentage">75%</span></div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" alt="Google Colab" class="skills__icon-img">
+                                <span class="skills__name">GOOGLE COLAB</span>
+                            </div>
+                            <div class="skills__bar skills__ux"></div>
+                            <div><span class="skills__percentage">70%</span></div>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://media.istockphoto.com/id/1401460590/photo/businessman-working-on-laptop-with-document-management-icon.jpg?s=612x612&w=0&k=20&c=o8Ci6F_YCWFlKE2Yr6A2wbDvrZRwSB3YssLakLkrFBo=" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="./assets/img/swiftfolio.png" alt="Project 1" class="project-img">
+                            <div class="project-overlay">
+                                <h3 class="project-title">SwiftFolio</h3>
+                                <p class="project-desc">SwiftFolio is a smart portfolio generator for developers, designers, and professionals.
+                                    It lets users create responsive, customizable websites with no coding needed.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/RAK4307/Swiftpolio" target="_blank" class="button project-btn">GitHub</a>
+                            <a href="https://www.linkedin.com/posts/anil-kumar-rayapudi_webdevelopment-portfoliobuilder-fullstackdev-activity-7337008370480009216-dxZW?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEKws1IBQHAK9_f_61tREE9fnDdZXFrJwlI" target="_blank" class="button project-btn">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="https://cdn.prod.website-files.com/662b8a4944dbb4e0ccd51a28/67aa05c11b68a8c81921f2d9_Capture%20d%E2%80%99e%CC%81cran%202025-02-10%20a%CC%80%2014.57.15.png" alt="Project 2" class="project-img">
+                            <div class="project-overlay">
+                                <h3 class="project-title">Landing-Page</h3>
+                                <p class="project-desc">A modern, responsive landing page built with HTML and CSS, featuring a clean interface, 
+                                    smooth styling, and an engaging user experience.</p>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/RAK4307/Landing-Page" target="_blank" class="button project-btn">GitHub</a>
+                            <a href="https://open-books-library43.netlify.app/" target="_blank" class="button project-btn">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="assets/img/work3.jpg" alt="Project 3" class="project-img">
+                            <div class="project-overlay">
+                                <h3 class="project-title">Editkaro</h3>
+                                <p class="project-desc">Editkaro is a web-based document editor built with HTML and CSS, offering a clean interface and smooth, 
+                                    responsive editing experience on any device.</p>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/RAK4307/Web-Intern" target="_blank" class="button project-btn">GitHub</a>
+                            <a href="https://editkaro43.netlify.app/" target="_blank" class="button project-btn">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="https://media.istockphoto.com/id/489556478/photo/travelling-tools.jpg?s=612x612&w=0&k=20&c=QtLGCZnOrH5vy8Q39Hi9d6TV3_IMxb3kjgdNDh8QZJk=" alt="Project 4" class="project-img">
+                            <div class="project-overlay">
+                                <h3 class="project-title">Travel Blogs</h3>
+                                <p class="project-desc">A beautifully designed travel blog website built with HTML and CSS, 
+                                    focusing on clean UI, smooth styling, and engaging travel stories.</p>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/RAK4307/Travel-Blog" target="_blank" class="button project-btn">GitHub</a>
+                            <a href="https://travelling-blogs.netlify.app/" target="_blank" class="button project-btn">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="https://cdn.dribbble.com/userupload/31820707/file/original-8d4bf34b4e6ec16b15b5a3e1f7574fe3.jpg?resize=400x0" alt="Project 5" class="project-img">
+                            <div class="project-overlay">
+                                <h3 class="project-title">Portfolio</h3>
+                                <p class="project-desc">A clean, responsive portfolio website built with HTML and CSS, 
+                                    highlighting key projects and skills with a modern, user-friendly design.</p>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/RAK4307/My-Portfolio" target="_blank" class="button project-btn">GitHub</a>
+                            <a href="https://portfolio-4307.netlify.app/" target="_blank" class="button project-btn">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="https://media.istockphoto.com/id/1199235820/photo/financial-background-money-and-finance-concept-with-charts.jpg?s=612x612&w=0&k=20&c=vWB6XgV5VW3-XbFC3I2wKZvwTUSt8ggaUoiNxpSjcG8=" alt="Project 6" class="project-img">
+                            <div class="project-overlay">
+                                <h3 class="project-title">Calculator</h3>
+                                <p class="project-desc">A clean, responsive web calculator developed with HTML5 and CSS3, featuring semantic markup and an intuitive interface for both desktop and mobile devices.</p>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/RAK4307/Calculator" target="_blank" class="button project-btn">GitHub</a>
+                            <a href="https://calculator-143.netlify.app/" target="_blank" class="button project-btn">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="mailto:kanil25566@gmail.com" method="POST" enctype="text/plain" class="contact__form">
+                        <input type="text" name="Name" placeholder="Name" class="contact__input" required>
+                        <input type="email" name="Email" placeholder="Email" class="contact__input" required>
+                        <textarea name="Message" placeholder="Your message" cols="0" rows="10" class="contact__input" required></textarea>
+                        <input type="submit" value="Submit" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="custom-footer">
+  <div class="footer-main">
+    <div class="footer-about">
+      <h2 class="footer-name">Rayapudi Anil Kumar</h2>
+      <p class="footer-desc">
+        <span style="color: #009fd4;">Full Stack Developer</span> | <span style="color: #009fd4;">AI/ML Enthusiast</span>
+        <br>
+        <br>
+        Final-year CSE (AI & ML) student focused on developing innovative projects and solving real-world problems.
+        <br>
+        <br>
+      </p>
+      <p class="footer-phone">
+        <br>
+        <strong>Phone:</strong> <a href="tel:+918142416063" style=" color:  #007cd4e7;;text-decoration:none;">+91 81424 16063</a>
+      </p>
+    </div>
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#work">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-social">
+      <h3>Follow Me</h3>
+      <div class="footer-icons">
+        <a href="mailto:kanil25566@gmail.com" target="_blank"><i class='bx bx-envelope'></i></a>
+        <a href="https://github.com/RAK4307" target="_blank"><i class='bx bxl-github'></i></a>
+        <a href="https://linkedin.com/in/anil-kumar-rayapudi" target="_blank"><i class='bx bxl-linkedin'></i></a>
+      </div>
+    </div>
+  </div>
+  <hr class="footer-divider">
+  <div class="footer-bottom">
+    <p>
+      Copyright &#169; 2025 All rights reserved |
+      This template is made with <span style="color:#e25555;">&#10084;</span> by <span style="color: #007cd4e7;">Anil</span>
+    </p>
+  </div>
+  <a href="#home" class="footer-up-btn"><i class='bx bx-up-arrow-alt'></i></a>
+</footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+        
+    </body>
+</html>
